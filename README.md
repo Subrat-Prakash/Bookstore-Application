@@ -56,10 +56,43 @@ Make your changes and commit them: git commit -m 'Add new feature'.
 Push to the branch: git push origin feature-name.
 Submit a pull request.
 License
-This project is licensed under the MIT License. Feel free to use, modify, and distribute it as per the license terms.
+This project is licensed under the MIT License. Feel free to use, modify, and distribute it as per the license terms.          
 
 
 
+# Bookstore Application
+
+## Description
+
+The Bookstore Application is a Java-based project designed to manage and organize a virtual bookstore. It provides functionalities for adding, removing, and updating books in the inventory. The application also supports user authentication and authorization to ensure secure access.
+
+## Features
+
+- **Book Management:**
+  - Add new books to the inventory.
+  - Remove existing books from the inventory.
+  - Update book details such as title, author, and price.
+
+- **User Authentication:**
+  - Secure user login functionality.
+  - User registration for new accounts.
+
+- **Authorization:**
+  - Differentiate between regular users and administrators.
+  - Admins have additional privileges for managing the entire inventory.
+
+## Technologies Used
+
+- Java
+- Spring Boot
+- MySQL (or your preferred database)
+- HTML, CSS, Thymeleaf (for web-based user interface)
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/bookstore-application.git
 
 
 
